@@ -9,17 +9,19 @@ body {
 
 /*navbar*/
 .navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: fixed;
     height: 100px;
     width: 100%;
+    padding: 0 200px;
 
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     box-sizing: border-box;
     border-bottom: 4px solid red;
+
+    background-color: aqua;
 }
 
 @media screen and (max-device-width: 768px) {
@@ -49,15 +51,17 @@ body {
     width: 177px;
     height: 50px;
 
+    cursor: pointer;
+
     background-color: aliceblue;
 }
 
 /*NavItem*/
 .navItem{
-
-
     width: 177px;
     height: 50px;
+
+    cursor: pointer;
 
     background-color: blueviolet;
 }

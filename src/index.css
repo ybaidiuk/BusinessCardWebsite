@@ -19,7 +19,7 @@ body {
     background-color: aqua;
 
     box-sizing: border-box;
-    border-bottom: 20px solid red;
+    border-bottom: 4px solid red;
 }
 
 @media screen and (max-device-width: 768px) {

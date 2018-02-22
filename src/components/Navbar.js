@@ -4,14 +4,14 @@ import NavItem from "./NavItem";
 
 export default class Navbar extends Component {
 
-    static scrollContent(yAxis) {
+    scrollContent(yAxis) {
         window.scrollTo(0, yAxis);
     }
 
     render() {
         return (
             <div className={"navbar"}>
-                <Logo onClick={this.scrollContent.bind(this, 0)}/>
+                <Logo onClick={this.scrollContent( 0)}/>
 
                 <NavItem onClick={this.scrollContent.bind(this, 100)}
                          title={"first Item"}/>
